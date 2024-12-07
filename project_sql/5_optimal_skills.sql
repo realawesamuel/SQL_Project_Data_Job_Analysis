@@ -76,3 +76,6 @@ FROM
 ORDER BY
     top_demanded_skills.number_of_applications DESC,--I first ordered by number_of_applications 
     top_paying_skill.average_salary--Then I ordered by the salary based on skill
+
+LIMIT
+    10
